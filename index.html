@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FLE46QF36"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1FLE46QF36');
+  </script>
+</head>
+
 <div class="search-container">
   <input type="text" id="search-input" placeholder="search blog posts..." style="width: 90%;
     height: 35px;
@@ -22,15 +33,15 @@ layout: default
 <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
 
 <script>
-	window.simpleJekyllSearch = new SimpleJekyllSearch({
-	searchInput: document.getElementById('search-input'),
-	resultsContainer: document.getElementById('results-container'),
-	json: '{{ site.baseurl }}/search.json',
-	searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-	noResultsText: 'No results found',
-	limit: 10,
-	fuzzy: false,
-	exclude: ['Welcome']
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
   })
 </script>
 {% if site.posts.size == 0 %}
@@ -45,7 +56,7 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
 
-      <div clsss="meta">
+      <div class="meta">
         <span class="date">
           {{ post.date | date: "%Y-%m-%d" }}
         </span>
@@ -93,11 +104,11 @@ layout: default
 </script>
 <!-- pv的方式，单个用户连续点击n篇文章，记录n次访问量 -->
 <div align="center">
-	<span id="busuanzi_container_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;">
-		View:<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
-	</span>
-	<!-- uv的方式，单个用户连续点击n篇文章，只记录1次访客数 -->
-	<span id="busuanzi_container_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;">
-		User:<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
-	</span>
+    <span id="busuanzi_container_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;">
+        View:<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
+    </span>
+    <!-- uv的方式，单个用户连续点击n篇文章，只记录1次访客数 -->
+    <span id="busuanzi_container_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;">
+        User:<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
+    </span>
 </div>
