@@ -28,8 +28,7 @@ navigation:
     url: /archive
   - name: 标签
     url: /tags
-  - name: game
-    url: /tags
+
 # Pagination
 paginate: 8
 
