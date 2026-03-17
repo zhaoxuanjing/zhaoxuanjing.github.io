@@ -27,7 +27,6 @@ Seedance  生成视频测试
   <source src="https://v.douyin.com/VMex5Ac9Vek.mp4" type="video/mp4">
   您的浏览器不支持 video 标签。
 </video>
-![]()
 
 #女剑客
 电影级4K特写镜头，画面主体是一位年轻的女剑客，占据画面右侧三分之二。
