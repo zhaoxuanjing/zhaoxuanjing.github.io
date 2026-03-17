@@ -22,8 +22,11 @@ Seedance  生成视频测试
 水面散落着嶙峋的深色礁石，乌云密布的风暴天空，云层带有破碎纹理，微弱的月光穿透云层洒落，
 整体采用单色调黑白灰配色，仅在天使的羽翼与裙摆处保留明亮高光，形成强烈明暗对比，
 营造出神圣又决绝的奇幻氛围。，比例 「16:9」
-
-![](https://v.douyin.com/VMex5Ac9Vek)
+video width="600" controls>
+  <source src="https://v.douyin.com/VMex5Ac9Vek.mp4" type="video/mp4">
+  您的浏览器不支持 video 标签。
+</video>
+![]()
 
 #女剑客
 电影级4K特写镜头，画面主体是一位年轻的女剑客，占据画面右侧三分之二。
