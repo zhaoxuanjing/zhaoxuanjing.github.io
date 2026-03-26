@@ -1,10 +1,15 @@
-# Awesome Seedance 2.0 🎬
+---
+layout: post
+title: "Awesome seedance"
+date:   2019-11-22
+tags: [AI]
+comments: true
+author: zxj
+toc: true
+---
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![GitHub stars](https://img.shields.io/github/stars/ZeroLu/awesome-seedance?style=social)](https://github.com/ZeroLu/awesome-seedance/stargazers)
 
-> **Seedance 2.0（即梦）** 优质提示词、视频生成技巧以及高级 **Seedance AI** 实验资源的精选集合。
-
-本仓库专注于收集来自 X (Twitter)、微信和顶级提示词工程师的 **高保真 Seedance 2.0 提示词**。无论你是在寻找**电影级过渡**、**角色一致性**，还是复杂的**动作序列**，你都能在这里找到最有效的输入，以解锁 **Seedance AI** 的全部潜力。
+<!-- more -->
 
 ## 📖 目录
 
